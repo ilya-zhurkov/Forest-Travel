@@ -1,0 +1,89 @@
+.header{
+    position: relative;
+    height: 800px;
+    background-color: #265847;
+    background-image: url('../img/main/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 50px;
+  }
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+.header-inner{
+    background-color: #265847;
+    background-image: url('../img/tours/header-small-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.header-nav-list{
+    display: flex;
+    flex-direction: row;
+  }
+.header-icon{
+    display: none;
+}
+.header-nav-list-item{
+    margin-right: 50px;
+  }
+.header-nav-list-item:last-child{
+    margin-right: 0px;
+}
+.header-nav-list-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-content-title{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.header-content-text{
+    font-weight: 400;
+    font-size: 24px;
+}
+.header-btn-link{
+    display: inline-block;
+    height: 55px;
+    width: 85px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-btn-link::after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('../img/icon/arrow.svg');
+}
